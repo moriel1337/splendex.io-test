@@ -1,0 +1,93 @@
+h4 {
+    font-size: 20px;
+}
+
+/* - - - - NAVIGATION - - - - */
+
+.navigation ul {
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+    font-weight: 600;
+    padding: 0;
+}
+
+.navigation ul li {
+    margin-right: 50px;
+}
+
+.navigation ul li:last-child {
+    margin-left: auto;
+    margin-right: -20px;
+}
+
+.navigation ul li:nth-of-type(4) {
+    margin-left: 850px;
+}
+
+.navigation ul li:first-of-type::after {
+    content: url("images/dropdown.png");
+    margin-left: 15px;
+}
+
+/* - - - - CONTENT - - - - */
+
+.content button {
+    width: 100%;
+    background-color: rgb(85, 85, 85);
+    border: none;
+    padding: 10px 0;
+    font-weight: 600;
+    color: white;
+}
+
+.circles {
+    display: flex;
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    margin-right: 10px;
+    border: 3px solid gray;
+}
+
+.black {
+    background-color: black;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+/* - - - - RELATED - - - - */
+
+/* - - - - FOOTER - - - - */
+
+footer {
+    width: 90%;
+    background-color: black;
+    margin-left: 5%;
+}
+
+footer ul {
+    display: flex;
+    align-items: center;
+    height: 200px;
+    color: lightgrey;
+}
+
+footer ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+footer h4 {
+    color: lightgrey;
+}
+
